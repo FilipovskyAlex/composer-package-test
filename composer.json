@@ -2,5 +2,10 @@
 	"name": "FilipovskyAlex/composer-package-test",
 	"version": "1.0.0",
 	"description": "Simple test composer package",
-	"license": "MIT"
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+		    "ComposerPackageTest": ""
+		}
+	},
 }
